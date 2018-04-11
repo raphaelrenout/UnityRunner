@@ -6,19 +6,18 @@ public class PlayerController : MonoBehaviour {
 
     private Rigidbody myRigidBody;
     private Transform myTransform;
-    private Collider col;
 
     public float speed = 0.05f;
+    public float gravityStrength = 0.01f;
 
 	// Use this for initialization
 	void Start () {
         myRigidBody = GetComponent<Rigidbody>();
-        col = GetComponent<Collider>();
         myTransform = transform;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         if (Input.GetKey(KeyCode.D))
             myRigidBody.velocity = transform.right * speed;
 
@@ -31,17 +30,19 @@ public class PlayerController : MonoBehaviour {
         if (Input.GetKey(KeyCode.S))
             myRigidBody.velocity = -transform.forward * speed;
 
+
         if (Input.GetKey(KeyCode.Space))
             myRigidBody.velocity = transform.up * speed;
 
-        OnTriggerEnter(col);
+        myRigidBody.AddForce(-Vector3.up * gravityStrength);
+
 	}
 
     void OnTriggerEnter(Collider col) {
-        if (col.name == "WaterBasicDaytime")
+        Debug.Log(col.name);
+        if (col.tag == "Water")
         {
-            Physics.gravity /= 100;
-            speed = 300;
+            gravityStrength = 1000f;
         }
     }
 
@@ -49,7 +50,8 @@ public class PlayerController : MonoBehaviour {
     {
         if (col.tag == "Water")
         {
-            Physics.gravity *= 10;
+            gravityStrength = 6000f;
+
         }
     }
 }
