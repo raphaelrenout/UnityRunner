@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{6A1F0B4B-713C-4408-3D47-47F5BAC1B7B3}|">
   <MonoDevelop.Ide.ItemProperties.UnityRunnser PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WaterGravity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SimpleSmoothMouseLook.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="33" Column="57" />
-      <File FileName="Assets/Scripts/SimpleSmoothMouseLook.cs" Line="25" Column="76" />
-      <File FileName="Assets/Scripts/WaterGravity.cs" Line="33" Column="6" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="32" Column="9" />
+      <File FileName="Assets/Scripts/SimpleSmoothMouseLook.cs" Line="69" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

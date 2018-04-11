@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour {
     private Transform myTransform;
 
     public float speed = 0.05f;
-    public float gravityStrength = 0.01f;
+    public float gravityStrength = 0.05f;
+    public bool isInWater = false;
 
 	// Use this for initialization
 	void Start () {
@@ -40,6 +41,7 @@ public class PlayerController : MonoBehaviour {
 
     void OnTriggerEnter(Collider col) {
         Debug.Log(col.name);
+        isInWater = true;
         if (col.tag == "Water")
         {
             gravityStrength = 1000f;
@@ -48,6 +50,7 @@ public class PlayerController : MonoBehaviour {
 
     void OnTriggerExit(Collider col)
     {
+        isInWater = false;
         if (col.tag == "Water")
         {
             gravityStrength = 6000f;

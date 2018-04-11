@@ -12,6 +12,7 @@ public class SimpleSmoothMouseLook : MonoBehaviour
     public Vector2 smoothing = new Vector2(3, 3);
     public Vector2 targetDirection;
     public Vector2 targetCharacterDirection;
+    public PlayerController pc;
 
     // Assign this if there's a parent object controlling motion, such as a Character Controller.
     // Yaw rotation will affect this object instead of the camera if set.
@@ -21,6 +22,7 @@ public class SimpleSmoothMouseLook : MonoBehaviour
     {
         // Set target direction to the camera's initial orientation.
         targetDirection = transform.localRotation.eulerAngles;
+        pc.isInWater = false;
 
         // Set target direction for the character body to its inital state.
         //if (pivot)
@@ -63,13 +65,17 @@ public class SimpleSmoothMouseLook : MonoBehaviour
         //transform.localRotation = Quaternion.AngleAxis(-_mouseAbsolute.y, targetOrientation * Vector3.right) * targetOrientation;
 
         // If there's a character body that acts as a parent to the camera
-        if (pivot)
+        if (pivot && pc.isInWater)
         {
             var xRotation = Quaternion.AngleAxis(_mouseAbsolute.x, Vector3.up);
             var yRotation = Quaternion.AngleAxis(_mouseAbsolute.y, -Vector3.right);
             pivot.transform.localRotation = xRotation * yRotation * targetCharacterOrientation;
 
         }
+        //else if (pivot && !pc.isInWater) {
+        //    var xRotation = Quaternion.AngleAxis(_mouseAbsolute.x, Vector3.up);
+        //    pivot.transform.localRotation = xRotation * targetCharacterOrientation;
+        //}
         else
         {
             var yRotation = Quaternion.AngleAxis(_mouseAbsolute.x, transform.InverseTransformDirection(Vector3.up));
