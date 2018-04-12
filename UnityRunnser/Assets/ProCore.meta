@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: cf503920766634f91801ce37a54434aa
 folderAsset: yes
 timeCreated: 1523528429
+=======
+guid: 53f4bfa4a92e34f7d9749efeedd19c9c
+folderAsset: yes
+timeCreated: 1523529323
+>>>>>>> raphy
 licenseType: Free
 DefaultImporter:
   externalObjects: {}
