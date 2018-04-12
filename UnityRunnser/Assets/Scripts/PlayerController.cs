@@ -10,11 +10,18 @@ public class PlayerController : MonoBehaviour {
     public float speed = 0.05f;
     public float gravityStrength = 0.05f;
     public bool isInWater = false;
+    public Color fogColor;
 
 	// Use this for initialization
 	void Start () {
         myRigidBody = GetComponent<Rigidbody>();
         myTransform = transform;
+        ColorUtility.TryParseHtmlString("#0A577EFF", out fogColor);
+        RenderSettings.fogMode = FogMode.Linear;
+        RenderSettings.fogColor = fogColor;
+        RenderSettings.fogStartDistance = 0;
+        RenderSettings.fogEndDistance = 85;
+        RenderSettings.fog = false;
 	}
 	
 	// Update is called once per frame
@@ -45,6 +52,7 @@ public class PlayerController : MonoBehaviour {
         if (col.tag == "Water")
         {
             gravityStrength = 1000f;
+            RenderSettings.fog = true;
         }
     }
 
@@ -54,7 +62,7 @@ public class PlayerController : MonoBehaviour {
         if (col.tag == "Water")
         {
             gravityStrength = 6000f;
-
+            RenderSettings.fog = false;
         }
     }
 }

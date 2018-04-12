@@ -22,7 +22,6 @@ public class SimpleSmoothMouseLook : MonoBehaviour
     {
         // Set target direction to the camera's initial orientation.
         targetDirection = transform.localRotation.eulerAngles;
-        pc.isInWater = false;
 
         // Set target direction for the character body to its inital state.
         //if (pivot)
@@ -65,7 +64,7 @@ public class SimpleSmoothMouseLook : MonoBehaviour
         //transform.localRotation = Quaternion.AngleAxis(-_mouseAbsolute.y, targetOrientation * Vector3.right) * targetOrientation;
 
         // If there's a character body that acts as a parent to the camera
-        if (pivot && pc.isInWater)
+        if (pivot)
         {
             var xRotation = Quaternion.AngleAxis(_mouseAbsolute.x, Vector3.up);
             var yRotation = Quaternion.AngleAxis(_mouseAbsolute.y, -Vector3.right);
