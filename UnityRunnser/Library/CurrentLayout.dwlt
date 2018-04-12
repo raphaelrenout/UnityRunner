@@ -41,11 +41,26 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 2048
+<<<<<<< HEAD
     height: 977
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
   controlID: 124
+=======
+    height: 978
+<<<<<<< HEAD
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
+  vertical: 0
+  controlID: 26
+=======
+  m_MinSize: {x: 883, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
+  vertical: 0
+  controlID: 73
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -63,10 +78,22 @@ MonoBehaviour:
     x: 1633
     y: 0
     width: 415
+<<<<<<< HEAD
     height: 977
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
+=======
+    height: 978
+<<<<<<< HEAD
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
+=======
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
+  m_ActualView: {fileID: 14}
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
   m_Panes:
   - {fileID: 15}
   m_Selected: 0
@@ -119,8 +146,13 @@ MonoBehaviour:
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 14}
   m_Panes:
+<<<<<<< HEAD
   - {fileID: 14}
   - {fileID: 19}
+=======
+  - {fileID: 13}
+  - {fileID: 17}
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &6
@@ -143,8 +175,16 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 2048
+<<<<<<< HEAD
     height: 1027
+=======
+    height: 1028
+<<<<<<< HEAD
+  m_MinSize: {x: 950, y: 300}
+=======
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
   m_MinSize: {x: 950, y: 542}
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &7
 MonoBehaviour:
@@ -206,11 +246,26 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1633
+<<<<<<< HEAD
     height: 977
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
   controlID: 125
+=======
+    height: 978
+<<<<<<< HEAD
+  m_MinSize: {x: 406, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
+  vertical: 1
+  controlID: 27
+=======
+  m_MinSize: {x: 606, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
+  vertical: 1
+  controlID: 74
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,9 +285,20 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1633
+<<<<<<< HEAD
     height: 591
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
+=======
+    height: 592
+<<<<<<< HEAD
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
+=======
+  m_MinSize: {x: 606, y: 221}
+  m_MaxSize: {x: 6054, y: 4021}
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
   vertical: 0
   controlID: 28
 --- !u!114 &11
@@ -251,6 +317,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 407
     y: 0
+<<<<<<< HEAD
     width: 1226
     height: 591
   m_MinSize: {x: 204, y: 221}
@@ -261,7 +328,29 @@ MonoBehaviour:
   - {fileID: 18}
   - {fileID: 13}
   m_Selected: 0
+=======
+    width: 1229
+    height: 592
+<<<<<<< HEAD
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 16}
+=======
+  m_MinSize: {x: 404, y: 121}
+  m_MaxSize: {x: 2052, y: 2069}
+  m_ActualView: {fileID: 12}
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
+  m_Panes:
+  - {fileID: 16}
+  - {fileID: 12}
+<<<<<<< HEAD
+  m_Selected: 0
+  m_LastSelected: 0
+=======
+  m_Selected: 2
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
   m_LastSelected: 1
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -363,13 +452,30 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/_Scenes
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
+  m_LastProjectPath: /Users/tiffany/Documents/unity/UnityRunner/UnityRunnser
+  m_IsLocked: 0
+  m_FolderTreeState:
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 0a2a0000
+    m_LastClickedID: 10762
+    m_ExpandedIDs: 00000000cc270000d027000000ca9a3bffffff7f
+=======
   m_LastProjectPath: /Users/renout/Documents/UnityRunner/UnityRunnser
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 802d0000
     m_LastClickedID: 11648
     m_ExpandedIDs: 00000000e22800000a29000060290000142a0000c42d000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 8}
+    m_SelectedIDs: 62300000
+    m_LastClickedID: 12386
+    m_ExpandedIDs: 00000000f6270000fa2700009a2800005c2a00005830000000ca9a3bffffff7f
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -397,7 +503,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 00000000e228000060290000142a0000c42d0000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: 00000000cc270000d0270000
+=======
+    m_ExpandedIDs: 00000000f6270000fa2700009a2800005c2a0000
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -517,7 +631,15 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 122a0000
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: fa8febffc0a0ebfffe15f1ffbe20f3ffbc51f3ffe261f4ff5cb3f6ff224dffff3c4dffffb454ffff7a57ffff3459ffffca69ffff3a6cffff4273ffff7676ffffd49affff089cffff3eedffff2aefffff14f0ffff9efbffff00000000
+=======
+<<<<<<< HEAD
+    m_ExpandedIDs: a291faff6a99fafff0a3fbff0eaefbff9efbffff00000000342b0000
+=======
+    m_ExpandedIDs: 7af1ffffc4f5ffff82fbffff00000000ee2b0000
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -568,14 +690,30 @@ MonoBehaviour:
     height: 570
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneLighting: 1
+<<<<<<< HEAD
   lastFramingTime: 6632.313171029091
+=======
+  lastFramingTime: 3247.995481967926
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 51.066387, y: 198.01689, z: 126.740005}
     speed: 2
     m_Value: {x: 51.066387, y: 198.01689, z: 126.740005}
+=======
+<<<<<<< HEAD
+    m_Target: {x: -92.27522, y: -0.9156754, z: -0.76146483}
+    speed: 2
+    m_Value: {x: -92.27522, y: -0.9156754, z: -0.76146483}
+=======
+    m_Target: {x: 35.70739, y: -6.926386, z: -30.858097}
+    speed: 2
+    m_Value: {x: 35.70739, y: -6.926386, z: -30.858097}
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -599,13 +737,31 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: -0.29187986, y: -0.53074026, z: 0.20121875, w: -0.76982594}
+=======
+<<<<<<< HEAD
+    m_Target: {x: -0.101675935, y: -0.7258634, z: 0.10993396, w: -0.6713411}
+    speed: 2
+    m_Value: {x: -0.101675935, y: -0.7258634, z: 0.10993396, w: -0.6713411}
+  m_Size:
+    m_Target: 7.1871796
+    speed: 2
+    m_Value: 7.1871796
+=======
+    m_Target: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
     speed: 2
     m_Value: {x: -0.29187986, y: -0.53074026, z: 0.20121875, w: -0.76982594}
   m_Size:
     m_Target: 1366.787
     speed: 2
+<<<<<<< HEAD
     m_Value: 1366.787
+=======
+    m_Value: 71.41958
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
+>>>>>>> 3ac57a400cf380e712033dea16d4a4768f69178e
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -625,6 +781,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+<<<<<<< HEAD
+=======
   m_Script: {fileID: 12015, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -702,6 +860,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 1
+>>>>>>> fac8af591ef117dfd11afb36d256b01e509e7535
   m_Script: {fileID: 12003, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
