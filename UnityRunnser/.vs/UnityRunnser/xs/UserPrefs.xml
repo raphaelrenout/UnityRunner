@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.ItemProperties.UnityRunnser PreferredExecutionTarget="Unity.Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="46" Column="10" />
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="50" Column="1" />
       <File FileName="Assets/Scripts/SimpleSmoothMouseLook.cs" Line="69" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
